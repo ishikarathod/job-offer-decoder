@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: offerwise
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:////var/data/offerwise.db
+    disk:
+      name: offerwise-data
+      mountPath: /var/data
+      sizeGB: 1

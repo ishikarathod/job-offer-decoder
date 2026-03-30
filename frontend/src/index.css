@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #e2e8f0;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.22), transparent 24%),
+    radial-gradient(circle at top right, rgba(249, 115, 22, 0.2), transparent 26%),
+    linear-gradient(180deg, #020617 0%, #0f172a 100%);
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+textarea,
+input,
+select {
+  @apply outline-none;
+}
+
+.field {
+  @apply w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-sky-300/60 focus:bg-white/10;
+}

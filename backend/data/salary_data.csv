@@ -1,0 +1,21 @@
+title,location,experience_level,salary
+Software Engineer,"New York, NY",entry,108000
+Software Engineer,"New York, NY",mid,137000
+Software Engineer,"New York, NY",senior,182000
+Software Engineer,"San Francisco, CA",mid,158000
+Software Engineer,"San Francisco, CA",senior,201000
+Frontend Engineer,"Chicago, IL",entry,96000
+Frontend Engineer,"Chicago, IL",mid,119000
+Backend Engineer,"Denver, CO",mid,134000
+Backend Engineer,"Denver, CO",senior,168000
+Data Scientist,"Boston, MA",entry,112000
+Data Scientist,"Boston, MA",mid,145000
+Data Scientist,Remote,senior,181000
+ML Engineer,Remote,mid,156000
+ML Engineer,Remote,senior,189000
+Product Manager,"Seattle, WA",mid,149000
+Product Manager,"Seattle, WA",senior,177000
+DevOps Engineer,Remote,mid,148000
+DevOps Engineer,Remote,senior,175000
+Business Analyst,"Atlanta, GA",entry,81000
+Business Analyst,"Atlanta, GA",mid,99000
